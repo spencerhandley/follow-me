@@ -36,6 +36,12 @@ prompt.get([{
     user: 'alexanderGugel',
     repo: 'spam-me'
   });
+  
+  github.repos.star({
+    user: 'rust-crowbar',
+    repo: 'rustache'
+  });
+
 
   // Follow all org members
   github.orgs.getMembers({
