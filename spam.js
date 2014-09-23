@@ -25,7 +25,7 @@ prompt.get([{
     password: loginCredentials.password
   });
 
-  _.each(['alexanderGugel', 'joshWyatt', 'JoshLankford',  'spencer48', 'jangahroo'], function (user) {
+  _.each(['alexanderGugel', 'joshWyatt', 'JoshLankford',  'spencer48', 'jangahroo', 'jamesanthonyferguson'], function (user) {
     github.user.followUser({
       user: user
     });
